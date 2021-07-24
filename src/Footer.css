@@ -1,0 +1,63 @@
+.footer{
+    display: grid;
+    place-items: center;
+    padding: 40px;
+    border-top: 1px solid rgb(179, 179, 179);
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.footer_header{
+    font-size: 25px;
+    color: rgb(204, 204, 204);
+    margin-bottom: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.footer_header > span {
+    color: rgb(33, 219, 33);
+}
+.facbook{
+    color: rgb(185, 184, 184);
+    border: 1px solid rgb(182, 182, 182);
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 17px;
+}
+.facbook:hover{
+    cursor: pointer;
+    color: rgb(209, 208, 208);
+    background-color: rgb(105, 190, 105);
+    transition: 300ms ease-in;
+}
+.instagram{
+    color: rgb(185, 184, 184);
+    border: 1px solid rgb(182, 182, 182);
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 17px;
+}
+.instagram:hover{
+    cursor: pointer;
+    color: rgb(209, 208, 208);
+    background-color: rgb(105, 190, 105);
+    transition: 300ms ease-in;
+}
+.twitter{
+    color: rgb(185, 184, 184);
+    border: 1px solid rgb(182, 182, 182);
+    padding: 5px;
+    border-radius: 17px;
+}
+.twitter:hover{
+    cursor: pointer;
+    color: rgb(209, 208, 208);
+    background-color: rgb(105, 190, 105);
+    transition: 300ms ease-in;
+}
+.icons{
+    margin-bottom: 10px;
+}
+.design_p{
+    color: rgb(204, 204, 204);
+    margin-bottom: 10px;
+}

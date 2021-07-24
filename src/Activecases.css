@@ -1,0 +1,53 @@
+.Activecases{
+    display: grid;
+    place-items: center;
+    margin-bottom: 20px;
+}
+
+.table{
+    width: 87%;
+    margin: 0 auto;
+    text-align: center;
+    border-color: rgb(209, 195, 195);
+}
+
+tr.noBorder1 td {
+    border: 0;
+    padding: 10px;
+    background-color: rgb(206, 204, 204);
+    color: rgb(80, 79, 79);
+}
+
+.heading11{
+   font-size: 24px;
+   padding-top: 12px;
+   font-weight: 500;
+}
+.margin{
+    padding-bottom: 10px;
+}
+
+tr.noBorder td {
+    border: 0;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.padding{
+    padding: 20px;
+}
+
+.para11{
+    color: rgb(32, 32, 218);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.para22{
+    font-weight: 500;
+    font-size: 20px;
+    color: red;
+}

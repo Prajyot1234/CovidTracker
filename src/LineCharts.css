@@ -1,0 +1,81 @@
+/* maing graph css */
+.graph{
+    display: grid;
+    place-items: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(209, 195, 195);
+    padding: 40px;   
+}
+.graph1{
+    margin-top: 30px;
+    display: grid;
+    place-items: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(209, 195, 195);
+    padding: 40px; 
+}
+
+/* heading css */
+
+.heading{
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+
+.heading1{
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+
+/* heading paragraph css */
+.headingp {
+    position: relative;
+    bottom: 14px;
+    color: rgb(75, 73, 73);
+    font-size: 20px;
+}
+.headingp1{
+    position: relative;
+    bottom: 14px;
+    color: rgb(75, 73, 73);
+    font-size: 20px;
+}
+
+.casesp{
+    position: relative;
+    bottom: 10px;
+    color: rgb(114, 112, 112);
+}
+.casesp1{
+    position: relative;
+    bottom: 10px;
+    color: rgb(114, 112, 112);
+}
+/* for mobile purpose */
+
+@media only screen and (max-width: 600px) {
+    .graph{
+        display: grid;
+        place-items: center;
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid rgb(209, 195, 195);
+        padding: 40px;   
+    }
+    .graph1{
+        display: grid;
+        place-items: center;
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid rgb(209, 195, 195);
+        padding: 40px;  
+    }
+}

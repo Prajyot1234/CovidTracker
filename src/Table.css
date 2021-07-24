@@ -1,0 +1,19 @@
+.table_data{
+  
+    margin-top: 20px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+th{
+    padding: 3px;
+}
+
+tbody > tr:nth-of-type(odd) {
+    background-color: rgb(104, 209, 104);
+}
+tbody > tr > td {
+    padding: 3px;
+}

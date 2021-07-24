@@ -1,0 +1,42 @@
+.slider{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(104, 209, 104);
+    color: white;
+    height: 50vh;
+    overflow: auto;
+    padding: 10px;
+}
+.main ::-webkit-scrollbar{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .slider{
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        background-color: rgb(104, 209, 104);
+        color: white;
+        height: 50vh;
+        padding: 40px;
+        overflow: auto;
+    }
+  }
+.candidate {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.phase{
+    margin-top: 5px;
+}
+.details{
+    margin-top: 5px;
+}
+.index{
+    font-size: 20px;
+    font-weight: 400;
+    
+}

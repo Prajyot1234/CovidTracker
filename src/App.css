@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.App_header{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.App_header > h1 {
+    margin-left: 30px;
+    background: linear-gradient(to right, #f38021, 
+    #eee3e3, #4278db, #30db38); 
+   -webkit-text-fill-color: transparent; 
+   -webkit-background-clip: text; 
+}
+
+.App_formcontrol{
+    position: absolute;
+    right: 30px;
+}
+
+.App_hr{
+    border-color: #eeeded;
+}
+
+.App_frontbody{
+    text-align: center;
+}
+
+/* pandemic */
+.panademic_p{
+    font-size: 20px;
+    padding: 4px;
+    margin-top: 10px;
+    background-color: rgb(230, 230, 230);
+    color: rgb(161, 159, 159);
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+}
+/* heading of cases. */
+.cases_heading{
+    color: rgb(87, 86, 86);
+    margin-top: 20px;
+    font-size: 28px;
+}
+/* cases of h1 */
+.cases_h1{
+    color: rgb(129, 129, 129);
+    margin-top: 3px;
+    font-size: 40px;
+}
+
+/* cases of deaths */
+.cases_deaths{
+    color: rgb(211, 71, 71);
+    font-size: 40px;
+}
+
+/* cases of recovered */
+.cases_recovered{
+    color: rgb(28, 196, 28);
+    font-size: 40px;
+}
+
+/* Active cases */
+
+
+/* btn CSS */
+
+.btn-display{
+    display: flex;
+    justify-content: space-evenly!important;
+    place-items: center;
+    width: 80%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+.btn-display > div > button {
+    border: none;
+    padding: 3px;
+    width: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-cases{
+    display: grid;
+    place-items: center;  
+    width: 50px;
+    background-color: green;
+    color: white;
+    opacity: 0.7;
+    padding: 10px;
+    border-radius: 30px; 
+}
+
+.btn-cases:hover{
+    background-color: green;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.btn-deaths{
+    display: grid;
+    place-items: center;
+    width: 50px;
+    background-color: red;
+    color: white;
+    opacity: 0.7;
+    padding: 10px;
+    border-radius: 30px;
+}
+.btn-deaths:hover{
+    background-color: red;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.btn-recovered{
+    display: grid;
+    place-items: center;
+    color: white;
+    width: 50px;
+    opacity: 0.7;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: grey;
+}
+.btn-recovered:hover{
+    background-color: grey;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.margin-top{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
